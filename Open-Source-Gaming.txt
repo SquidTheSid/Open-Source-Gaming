@@ -1,0 +1,158 @@
+This video is sponsored by protonmail. 
+
+Looking to cut out Google from your life? Protonmail is a Swiss-based email
+provider that offers up an intuitive and private alternative to Gmail.  They
+don't run tracking JavaScript on their homepage and they open source their web
+app over on GitHub. You'll also be able to store and send encrypted emails to
+other protonmail users.  I've been a premium subscriber for over a year now,
+and I've been quite happy with them. If you're interested in their services,
+I've got a referral link in the description below. 
+
+Open source technology (the code used to build applications) has revolutionized
+the software engineering profession.  Most of the websites you visit (Facebook,
+Amazon, Google, etc.) are hosted on servers that run Linux. Most major
+programming utilies are open source, such as the popular GCC compiler for C and
+C++, or OpenJDK for Java. Chances are, you'll interact with products created by
+these technologies in your day to day life without even realizing it. Did you
+know that your Android phone is powered by Linux? How about the New York Stock
+Exchange? Even video game development heavily utilizes free software, such as
+developers creating 3D models in Blender or using dedicated linux servers for
+multiplayer. 
+
+So with all of that shared tech in the wild, where are all of the libre games?
+For the most part, AAA studios and indie developers do not release their engine
+or game source code on a regular basis. With that in mind, examine why the
+gaming landscape is like this, make a case for why we need more open source
+games.
+
+
+Part 0: Potential Problems.
+
+A disclaimer. These opinions are just that, opinions. They're not meant as
+statements of fact. 
+
+#1 Control. 
+
+Personally, I think this is the most important reason, especially in the modern
+gaming industry.  With AAA studios pushing games as a service and
+microtransactions, these companies are financially incentivized to take away
+control from the user. You want that shiny new weapon skin that your opponent
+just killed you with? Better buy some loot boxes and hope that's what you get.
+Giving players access to the source code of the game would work directly
+against these companies' interests, as a talented programmer could
+strip out microtransactions and fork the project. 
+
+#2 Middleware
+
+On a more technical side,middleware (such as Havok, Speedtree and FMOD) usually
+have more complex licensing terms than free software projects. Now, as a game
+developer, try to imagine releasing the source code to your title when using a
+lot of middleware. It becomes an absolute nightmare, as you have scour through
+license after license, making sure you don't violate any legal agreements. As a
+result, it often makes little economic sense to navigate around this
+labyrinthian mess, especially when financial penalties can be severe.  We can
+actually see an example of a developer's mistake with the source code release
+of Star Wars Jedi Knight 2 by Raven Software.  Initially released under GPLv2,
+the project was taken off of Sourceforge when it was discovered that the
+licensed Bink Video code wasn't redacted. Thankfully, there still exists a
+community fork, so Jedi Knight 2's source has not been lost to the public.
+
+#3 Release Model
+
+Games follow a unique release model in the software world. Rather than
+iterating on a single piece of tech over time, companies opt to release new
+games constantly. As redditor Architector4 points out, "you could've used
+Blender for the last 20 years and still find it useful [today], but it'd
+probably get boring playing the same game for 20 years." The gaming industry
+evolves over time, and trying incorporate each new trend as it appears into
+your game just results in development hell, such as the case of Duke Nukem
+forever.  Thus, teams work on games for a few years, provide short-term patches
+and DLC, and move onto their next project, though games as a service is
+starting to change this release model. 
+
+Another thing to consider is how little objectivity there is in game
+development. Within the realm of a typical fortune 500 business, software is
+designed to address a set of specified requirements and use cases. Can the
+software adapt to user error and prevent it from causing major system damage?
+Can the software parse information so that it can be easily stored in a SQL
+database? These are generally simple yes or no questions.
+
+But games are inherently subjective, a reflection of the vision that the
+designers had at the time. How does the game "feel"? Are the controls "tight"
+or "loose"? Is the combat loop "engaging"? Depending on who you ask, the answer
+can easily change. As redditor Odostolon points out, "with games being so much
+a matter of taste, it's much more difficult to agree on a feature set. [It's]
+hard to coordinate".
+
+So, with all of these in mind, it's not hard to see why most titles end up
+being proprietary releases. 
+
+Part 1: Why do we care?
+
+But why should we care that we don't have the source code to the end product?
+Who really needs to be able to compile games for themselves?
+
+Well, for me, it comes down to one major concern: video game preservation. 
+
+I think there's a real danger of permanently losing games with the shift to an
+increasingly online-centric world. What happens if the company goes bankrupt or
+the servers get taken offline? Past the cutoff date, we'll never be able to
+play these games ever again. 
+
+Here are two such examples that are now lost to history.
+
+Released back in 2011, Darkspore was a Sci-Fi Action RPG styled in the vein of
+Diablo. While nothing unique, it was a fun little romp that shared the original
+Spore's impressive creature creator. However, the game utilized always-online
+DRM, with no option for offline play. As a result, when the game's servers shut
+down in 2016, Darkspore became effectively unplayable. The server code was
+never released, nor were the servers reverse engineered by the community.  So
+to this day, almost 4 years later, owners of Darkspore can still not play the
+game. 
+
+Released on August 8, 2017, Lawbreakers aimed to be the Dark Souls of online
+multiplayer FPS games, marking the return of legendary game developer Cliff
+Bleszinski.  Unfortunately, the game's sales never matched its critical
+reception, and the online playerbase whithered down into nearly nothing. Like
+Darkspore, Lawbreakers had no offline play, lacking bots or a LAN mode. So when
+the servers shut down on September 2018, another game became lost to the mists
+of time.  And with the server code still out of public access, there's not much
+we can do. 
+
+It seems like this trend is continuing, as more "high profile" games will
+receive the axe, notably former Overwatch competitor Battleborn, which will see
+its servers shut down on January 2021. 
+
+Gaming is an inherently digital medium. So long as the source code to a product
+exists, it can be built and run on practically any computer that meets it
+requirements. This is in stark contrast to a lot of movies and music, which
+were stored on physical film and master tapes until recently. And history's not
+been kind to these, as thousands of these have been lost to fires throughout
+the years. 
+
+We're in a unique situation where nearly every game can be preserved without
+much physical effort, yet the industry as a whole chooses not to do, preferring
+to pursue short-term gain. Even if many of these titles are unremarkable, I
+still want a future generation to be able to look back on and study them to
+better understand our evolving culture before we permanently lose these games. 
+
+Part 2 Conclusion:
+
+Overall, the situation around open source games is troubling. While I
+understand that it's difficult to navigate through the legal tape and there's
+little financial incentive for companies to open their code, I think it's
+important to preserve the legacy of video games as an evolving medium. I'm
+hoping more people realize that before we permanently lose any more titles.
+
+That you very much for watching. This video was rather near and dear to my
+heart, and I really loved making this project. The next video will be a review
+on Jamestown Plus, and I've been thinking about starting a new series of
+mini-game recommendations. Of course, with my schedule being a complete mess,
+who knows what will come out when. I certainly don't. For channel
+announcements, you can follow me on Twitter @SquidTheSid1, or hit up the
+Squidcord discord server.  If you'd like to be removed of any guilt from using
+an adblocker, you can financially support this channel on YouTube or Patreon.
+Every little bit of help puts me one step closer towards realizing this dream. 
+
+As always, stay frosty. 
+
