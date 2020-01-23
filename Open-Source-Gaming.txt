@@ -15,9 +15,9 @@ YouTube, are built by developers using high level programming languages like
 Java and Python. While humans can understand these languages, a computer cannot
 as it only understands sequences of binary numbers (0s and 1s). Therefore,
 these high level commands need to converted into machine readable code using a
-compiler.  These master instructions are often referred to as a program's
-source code, which is essentially a giant list of directions telling a computer
-what to do in a specified order. Source code is generally released in two ways,
+compiler. The master instructions are often referred to as a program's source
+code, which is essentially a giant list of directions telling a computer what
+to do in a specified order. Source code is generally released in two ways,
 either as libre and open source or as proprietary and closed source. With the
 former, the instructions used to build the program are readily available for
 sharing, so any user that meets its requirements can modify, compile ,and build
@@ -66,18 +66,18 @@ skinner boxes.
 
 #2 Middleware
 
-On a more technical side, game middleware usually has more complex licensing
-terms than free software projects. significantly s a game developer, try to
-imagine releasing the source code to your title when using a lot of middleware.
-It becomes an absolute nightmare, as you have scour through license after
-license, making sure you don't violate any legal agreements and face severe
-financial penalties. It often makes little economic sense to navigate around
-this labyrinthian mess.  We can actually see an example of a troubling
-situation with the source code release of Star Wars Jedi Knight 2 by Raven
-Software.  Initially released under GPLv2, the project was taken off of
-Sourceforge when it was discovered that the licensed Bink Video code wasn't
-removed. Thankfully, there still exists a community fork, so Jedi Knight 2's
-source has not been lost to the public.
+On a more technical side, middleware technologies that handle game physics or
+audio usually have more complex licensing structures than free software
+projects. As a game developer, try to imagine releasing the source code to your
+title when using a lot of middleware.  It becomes an absolute nightmare, as you
+have scour through license after license, making sure you don't violate any
+legal agreements and face severe financial penalties. It often makes little
+economic sense to navigate around this labyrinthian mess.  We can actually see
+an example of a troubling situation with the source code release of Star Wars
+Jedi Knight 2 by Raven Software.  Initially released under GPLv2, the project
+was taken off of Sourceforge when it was discovered that the licensed Bink
+Video code wasn't removed. Thankfully, there still exists a community fork, so
+Jedi Knight 2's source has not been lost to the public.
 
 #3 Release Model
 
@@ -106,8 +106,8 @@ can easily change. As redditor Odostolon points out, "with games being so much
 a matter of taste, it's much more difficult to agree on a feature set. [It's]
 hard to coordinate".
 
-So, with all of these in mind, it's not hard to see why most titles end up
-being proprietary releases. 
+So, with all of these problems in mind, it's not hard to see why most game
+developers don't release their source code. 
 
 Part 1: Why do we care?
 
@@ -142,15 +142,25 @@ servers shut down on September 2018, another game became lost to the mists of
 time.  And with the server code still out of public access, there's not much we
 can do. 
 
-It seems like this trend of permanently deleting games is continuing, as more
-"high profile" title will receive the axe, such as former Overwatch competitor
-Battleborn, which will see its servers shut down on January 2021. 
+So you might be wondering, why don't these games use peer to peer matchmaking
+instead connecting to a dedicated server?  Well, P2P has its own share
+of problems. For starters, the host always has an advantage due to not needing
+to compensate for network lag. And without a master server to check for
+game state, cheating becomes incredibly easy. That also doesn't solve the
+current problem of Lawbreakers and Darkspore being unplayable. Because if a
+publisher doesn't want to release their server code, they're sure as hell not
+going to hire developers to overhaul the game's network structure to use
+P2P. 
 
-Gaming is an inherently digital medium. So long as the source code to a product
-exists, it can be preserved by the public. This is in stark contrast to a lot
-of movies and music, which were stored on physical film and master tapes until
-recently. And history's not been kind to those, as thousands of projects have been
-lost to fires throughout the years. 
+It seems like this trend of permanently deleting games is only going to
+continue, as more "high profile" title are receiving the axe, such as former
+Overwatch competitor Battleborn, which will see its servers shut down on
+January 2021.  This entire situation is idiotic, as gaming is an inherently
+digital medium. So long as the source code to a product exists, it can be
+preserved by the public. This is in stark contrast to a lot of movies and
+music, which were stored on physical film and master tapes until recently. And
+history's not been kind to those, as thousands of projects have been lost to
+fires throughout the years. 
 
 We're in a unique situation where nearly every game can be preserved , yet the
 industry as a whole chooses not to do, preferring to pursue short-term gain.
