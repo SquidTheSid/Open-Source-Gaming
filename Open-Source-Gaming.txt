@@ -1,13 +1,3 @@
-This video is sponsored by protonmail. 
-
-Looking to cut out Google from your life? Protonmail is a Swiss-based email
-provider that offers up an intuitive and private alternative to Gmail.  They
-don't run tracking JavaScript on their homepage and they post the source code
-to their web app over on GitHub. You'll also be able to store and send
-encrypted emails to other protonmail users.  I've been a premium subscriber for
-over a year now, and I've been quite happy with them. If you're interested in
-their services, I've got a referral link in the description below. 
-
 I need to start off this video by definining some terminology for viewers that
 aren't familiar with programming, so that you don't get lost later on. The
 applications you use on your phone or computer, such as WhatsApp, Instagram, or
@@ -63,6 +53,13 @@ goods.  Giving users access to the source code of the game would work directly
 against these companies' interests, as a talented programmer could strip out
 microtransactions and fork the project, freeing the captive players from their
 skinner boxes. 
+
+On a corporate level, companies do not want their competition to have access to
+their source code, as they value it as one of their most prized possessions.
+Distributing their engine code would share insight into how their games are
+made, and what their priorities are, which offers up valuable intel. I disagree
+with view, but I can understand why people have it, as the concept of open
+source seems counterintuitive.  
 
 #2 Middleware
 
